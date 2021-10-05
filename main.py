@@ -1,7 +1,7 @@
 #WRITE YOUR CODE IN THIS FILE
 def hasL(w):
     for i in range(0, len(w)):
-        if w[0]== "l":
+        if w[i]== "l":
             return True
             return False
             
@@ -10,4 +10,4 @@ def hasL(w):
         
         
 
-print(hasL("long"))
+print(hasL("little"))
